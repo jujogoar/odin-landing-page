@@ -33,11 +33,12 @@ a {
 }
 
 a.button {
-    border-radius:15px;
+    border-radius:5px;
     padding:8px 35px;
     background-color:#3882F6;
     color:white;
     display:inline-block;
+    font-weight:900;
 }
 
 main section {
@@ -58,7 +59,6 @@ footer {
 
 main section.hero {
     display:flex;
-    margin:0 -15px;
 }
 
 main section.hero .title {
@@ -74,6 +74,81 @@ main section.hero div {
 main section.hero div.image-content img {
     max-width:100%;
     height:auto;
+}
+
+main section.information {
+    background-color:white;
+    padding-left:30%;
+    padding-right:30%;
+}
+
+main section.information .title {
+    font-size:36px;
+    font-weight:900;
+    color:#1F2937;
+    text-align: center;
+}
+
+main section.information .illustrations {
+    margin:50px 0;
+}
+
+main section.information .illustrations img {
+    max-width:100%;
+    height:auto;
+    border-radius:15px;
+    border:4px solid #3882F6;
+    margin-bottom:6px
+}
+
+main section.information .illustrations ul {
+    display:flex;
+    list-style-type:none;
+    margin:0 -15px;
+}
+
+main section.information .illustrations ul li {
+    padding:0 15px;
+}
+
+main section.quotation {
+    background-color:#E5E7EB;
+    padding:100px 30%;
+}
+
+main section.quotation .quote {
+    font-size:36px;
+    color:#1F2937;
+    font-weight:300;
+    font-style:italic;
+}
+
+main section.quotation .sign {
+    text-align:right;
+    font-weight:900;
+    font-size:20px;
+}
+
+main section.call-to-action .call-to-action__block {
+    background-color:#3882F6;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px;
+}
+
+main section.call-to-action .call-to-action__block .text-content {
+    color:white;
+}
+
+main section.call-to-action .call-to-action__block .text-content .title {
+    font-size:20px;
+    font-weight:900;
+}
+
+main section.call-to-action .call-to-action__block .button-content .button {
+    border:2px solid white;
 }
 
 header {
@@ -105,3 +180,10 @@ header div.right-block ul li {
     padding:0 10px;
 }
 
+footer {
+    padding:35px 15px;
+}
+
+footer .copyright p {
+    text-align:center;
+}
